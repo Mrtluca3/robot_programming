@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall -Wextra -pedantic CMakeFiles/first_program.dir/many_object_in_stack_example.cpp.o -o first_program 

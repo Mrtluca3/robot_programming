@@ -1,0 +1,8 @@
+/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles/edit_cache.dir
+/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles/rebuild_cache.dir
+/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src/CMakeFiles/core_library.dir
+/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src/CMakeFiles/edit_cache.dir
+/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src/CMakeFiles/rebuild_cache.dir
+/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/executables/CMakeFiles/first_program.dir
+/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/executables/CMakeFiles/edit_cache.dir
+/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/executables/CMakeFiles/rebuild_cache.dir
