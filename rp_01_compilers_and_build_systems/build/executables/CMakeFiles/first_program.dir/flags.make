@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/. -I/usr/include/eigen3
 
 CXX_FLAGS = -Wall -Wextra -pedantic -std=gnu++11
 

@@ -130,6 +130,78 @@ core_library/fast:
 	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/build
 .PHONY : core_library/fast
 
+messages/base_sensor_message.o: messages/base_sensor_message.cpp.o
+.PHONY : messages/base_sensor_message.o
+
+# target to build an object file
+messages/base_sensor_message.cpp.o:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/messages/base_sensor_message.cpp.o
+.PHONY : messages/base_sensor_message.cpp.o
+
+messages/base_sensor_message.i: messages/base_sensor_message.cpp.i
+.PHONY : messages/base_sensor_message.i
+
+# target to preprocess a source file
+messages/base_sensor_message.cpp.i:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/messages/base_sensor_message.cpp.i
+.PHONY : messages/base_sensor_message.cpp.i
+
+messages/base_sensor_message.s: messages/base_sensor_message.cpp.s
+.PHONY : messages/base_sensor_message.s
+
+# target to generate assembly for a file
+messages/base_sensor_message.cpp.s:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/messages/base_sensor_message.cpp.s
+.PHONY : messages/base_sensor_message.cpp.s
+
+messages/odometry_message.o: messages/odometry_message.cpp.o
+.PHONY : messages/odometry_message.o
+
+# target to build an object file
+messages/odometry_message.cpp.o:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/messages/odometry_message.cpp.o
+.PHONY : messages/odometry_message.cpp.o
+
+messages/odometry_message.i: messages/odometry_message.cpp.i
+.PHONY : messages/odometry_message.i
+
+# target to preprocess a source file
+messages/odometry_message.cpp.i:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/messages/odometry_message.cpp.i
+.PHONY : messages/odometry_message.cpp.i
+
+messages/odometry_message.s: messages/odometry_message.cpp.s
+.PHONY : messages/odometry_message.s
+
+# target to generate assembly for a file
+messages/odometry_message.cpp.s:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/messages/odometry_message.cpp.s
+.PHONY : messages/odometry_message.cpp.s
+
+messages/pose_message.o: messages/pose_message.cpp.o
+.PHONY : messages/pose_message.o
+
+# target to build an object file
+messages/pose_message.cpp.o:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/messages/pose_message.cpp.o
+.PHONY : messages/pose_message.cpp.o
+
+messages/pose_message.i: messages/pose_message.cpp.i
+.PHONY : messages/pose_message.i
+
+# target to preprocess a source file
+messages/pose_message.cpp.i:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/messages/pose_message.cpp.i
+.PHONY : messages/pose_message.cpp.i
+
+messages/pose_message.s: messages/pose_message.cpp.s
+.PHONY : messages/pose_message.s
+
+# target to generate assembly for a file
+messages/pose_message.cpp.s:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/messages/pose_message.cpp.s
+.PHONY : messages/pose_message.cpp.s
+
 utils/blob.o: utils/blob.cpp.o
 .PHONY : utils/blob.o
 
@@ -202,6 +274,126 @@ utils/id_context.cpp.s:
 	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/id_context.cpp.s
 .PHONY : utils/id_context.cpp.s
 
+utils/id_placeholder.o: utils/id_placeholder.cpp.o
+.PHONY : utils/id_placeholder.o
+
+# target to build an object file
+utils/id_placeholder.cpp.o:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/id_placeholder.cpp.o
+.PHONY : utils/id_placeholder.cpp.o
+
+utils/id_placeholder.i: utils/id_placeholder.cpp.i
+.PHONY : utils/id_placeholder.i
+
+# target to preprocess a source file
+utils/id_placeholder.cpp.i:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/id_placeholder.cpp.i
+.PHONY : utils/id_placeholder.cpp.i
+
+utils/id_placeholder.s: utils/id_placeholder.cpp.s
+.PHONY : utils/id_placeholder.s
+
+# target to generate assembly for a file
+utils/id_placeholder.cpp.s:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/id_placeholder.cpp.s
+.PHONY : utils/id_placeholder.cpp.s
+
+utils/identifiable.o: utils/identifiable.cpp.o
+.PHONY : utils/identifiable.o
+
+# target to build an object file
+utils/identifiable.cpp.o:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/identifiable.cpp.o
+.PHONY : utils/identifiable.cpp.o
+
+utils/identifiable.i: utils/identifiable.cpp.i
+.PHONY : utils/identifiable.i
+
+# target to preprocess a source file
+utils/identifiable.cpp.i:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/identifiable.cpp.i
+.PHONY : utils/identifiable.cpp.i
+
+utils/identifiable.s: utils/identifiable.cpp.s
+.PHONY : utils/identifiable.s
+
+# target to generate assembly for a file
+utils/identifiable.cpp.s:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/identifiable.cpp.s
+.PHONY : utils/identifiable.cpp.s
+
+utils/object_data.o: utils/object_data.cpp.o
+.PHONY : utils/object_data.o
+
+# target to build an object file
+utils/object_data.cpp.o:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/object_data.cpp.o
+.PHONY : utils/object_data.cpp.o
+
+utils/object_data.i: utils/object_data.cpp.i
+.PHONY : utils/object_data.i
+
+# target to preprocess a source file
+utils/object_data.cpp.i:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/object_data.cpp.i
+.PHONY : utils/object_data.cpp.i
+
+utils/object_data.s: utils/object_data.cpp.s
+.PHONY : utils/object_data.s
+
+# target to generate assembly for a file
+utils/object_data.cpp.s:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/object_data.cpp.s
+.PHONY : utils/object_data.cpp.s
+
+utils/property.o: utils/property.cpp.o
+.PHONY : utils/property.o
+
+# target to build an object file
+utils/property.cpp.o:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/property.cpp.o
+.PHONY : utils/property.cpp.o
+
+utils/property.i: utils/property.cpp.i
+.PHONY : utils/property.i
+
+# target to preprocess a source file
+utils/property.cpp.i:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/property.cpp.i
+.PHONY : utils/property.cpp.i
+
+utils/property.s: utils/property.cpp.s
+.PHONY : utils/property.s
+
+# target to generate assembly for a file
+utils/property.cpp.s:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/property.cpp.s
+.PHONY : utils/property.cpp.s
+
+utils/property_container.o: utils/property_container.cpp.o
+.PHONY : utils/property_container.o
+
+# target to build an object file
+utils/property_container.cpp.o:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/property_container.cpp.o
+.PHONY : utils/property_container.cpp.o
+
+utils/property_container.i: utils/property_container.cpp.i
+.PHONY : utils/property_container.i
+
+# target to preprocess a source file
+utils/property_container.cpp.i:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/property_container.cpp.i
+.PHONY : utils/property_container.cpp.i
+
+utils/property_container.s: utils/property_container.cpp.s
+.PHONY : utils/property_container.s
+
+# target to generate assembly for a file
+utils/property_container.cpp.s:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/property_container.cpp.s
+.PHONY : utils/property_container.cpp.s
+
 utils/property_container_manager.o: utils/property_container_manager.cpp.o
 .PHONY : utils/property_container_manager.o
 
@@ -250,6 +442,78 @@ utils/property_eigen.cpp.s:
 	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/property_eigen.cpp.s
 .PHONY : utils/property_eigen.cpp.s
 
+utils/property_identifiable.o: utils/property_identifiable.cpp.o
+.PHONY : utils/property_identifiable.o
+
+# target to build an object file
+utils/property_identifiable.cpp.o:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/property_identifiable.cpp.o
+.PHONY : utils/property_identifiable.cpp.o
+
+utils/property_identifiable.i: utils/property_identifiable.cpp.i
+.PHONY : utils/property_identifiable.i
+
+# target to preprocess a source file
+utils/property_identifiable.cpp.i:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/property_identifiable.cpp.i
+.PHONY : utils/property_identifiable.cpp.i
+
+utils/property_identifiable.s: utils/property_identifiable.cpp.s
+.PHONY : utils/property_identifiable.s
+
+# target to generate assembly for a file
+utils/property_identifiable.cpp.s:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/property_identifiable.cpp.s
+.PHONY : utils/property_identifiable.cpp.s
+
+utils/serializable.o: utils/serializable.cpp.o
+.PHONY : utils/serializable.o
+
+# target to build an object file
+utils/serializable.cpp.o:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/serializable.cpp.o
+.PHONY : utils/serializable.cpp.o
+
+utils/serializable.i: utils/serializable.cpp.i
+.PHONY : utils/serializable.i
+
+# target to preprocess a source file
+utils/serializable.cpp.i:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/serializable.cpp.i
+.PHONY : utils/serializable.cpp.i
+
+utils/serializable.s: utils/serializable.cpp.s
+.PHONY : utils/serializable.s
+
+# target to generate assembly for a file
+utils/serializable.cpp.s:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/serializable.cpp.s
+.PHONY : utils/serializable.cpp.s
+
+utils/serialization_context.o: utils/serialization_context.cpp.o
+.PHONY : utils/serialization_context.o
+
+# target to build an object file
+utils/serialization_context.cpp.o:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/serialization_context.cpp.o
+.PHONY : utils/serialization_context.cpp.o
+
+utils/serialization_context.i: utils/serialization_context.cpp.i
+.PHONY : utils/serialization_context.i
+
+# target to preprocess a source file
+utils/serialization_context.cpp.i:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/serialization_context.cpp.i
+.PHONY : utils/serialization_context.cpp.i
+
+utils/serialization_context.s: utils/serialization_context.cpp.s
+.PHONY : utils/serialization_context.s
+
+# target to generate assembly for a file
+utils/serialization_context.cpp.s:
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/utils/serialization_context.cpp.s
+.PHONY : utils/serialization_context.cpp.s
+
 utils/serializer.o: utils/serializer.cpp.o
 .PHONY : utils/serializer.o
 
@@ -283,6 +547,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... core_library"
+	@echo "... messages/base_sensor_message.o"
+	@echo "... messages/base_sensor_message.i"
+	@echo "... messages/base_sensor_message.s"
+	@echo "... messages/odometry_message.o"
+	@echo "... messages/odometry_message.i"
+	@echo "... messages/odometry_message.s"
+	@echo "... messages/pose_message.o"
+	@echo "... messages/pose_message.i"
+	@echo "... messages/pose_message.s"
 	@echo "... utils/blob.o"
 	@echo "... utils/blob.i"
 	@echo "... utils/blob.s"
@@ -292,12 +565,36 @@ help:
 	@echo "... utils/id_context.o"
 	@echo "... utils/id_context.i"
 	@echo "... utils/id_context.s"
+	@echo "... utils/id_placeholder.o"
+	@echo "... utils/id_placeholder.i"
+	@echo "... utils/id_placeholder.s"
+	@echo "... utils/identifiable.o"
+	@echo "... utils/identifiable.i"
+	@echo "... utils/identifiable.s"
+	@echo "... utils/object_data.o"
+	@echo "... utils/object_data.i"
+	@echo "... utils/object_data.s"
+	@echo "... utils/property.o"
+	@echo "... utils/property.i"
+	@echo "... utils/property.s"
+	@echo "... utils/property_container.o"
+	@echo "... utils/property_container.i"
+	@echo "... utils/property_container.s"
 	@echo "... utils/property_container_manager.o"
 	@echo "... utils/property_container_manager.i"
 	@echo "... utils/property_container_manager.s"
 	@echo "... utils/property_eigen.o"
 	@echo "... utils/property_eigen.i"
 	@echo "... utils/property_eigen.s"
+	@echo "... utils/property_identifiable.o"
+	@echo "... utils/property_identifiable.i"
+	@echo "... utils/property_identifiable.s"
+	@echo "... utils/serializable.o"
+	@echo "... utils/serializable.i"
+	@echo "... utils/serializable.s"
+	@echo "... utils/serialization_context.o"
+	@echo "... utils/serialization_context.i"
+	@echo "... utils/serialization_context.s"
 	@echo "... utils/serializer.o"
 	@echo "... utils/serializer.i"
 	@echo "... utils/serializer.s"

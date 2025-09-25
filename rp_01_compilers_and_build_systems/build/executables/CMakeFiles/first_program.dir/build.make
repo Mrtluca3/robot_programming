@@ -92,6 +92,7 @@ first_program_EXTERNAL_OBJECTS =
 
 executables/first_program: executables/CMakeFiles/first_program.dir/many_object_in_stack_example.cpp.o
 executables/first_program: executables/CMakeFiles/first_program.dir/build.make
+executables/first_program: src/libcore_library.so
 executables/first_program: executables/CMakeFiles/first_program.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable first_program"
 	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/executables && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/first_program.dir/link.txt --verbose=$(VERBOSE)

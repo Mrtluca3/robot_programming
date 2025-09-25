@@ -97,38 +97,10 @@ src/CMakeFiles/core_library.dir/utils/blob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/utils/blob.cpp.s"
 	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/blob.cpp -o CMakeFiles/core_library.dir/utils/blob.cpp.s
 
-src/CMakeFiles/core_library.dir/utils/deserializer.cpp.o: src/CMakeFiles/core_library.dir/flags.make
-src/CMakeFiles/core_library.dir/utils/deserializer.cpp.o: /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/deserializer.cpp
-src/CMakeFiles/core_library.dir/utils/deserializer.cpp.o: src/CMakeFiles/core_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/core_library.dir/utils/deserializer.cpp.o"
-	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/core_library.dir/utils/deserializer.cpp.o -MF CMakeFiles/core_library.dir/utils/deserializer.cpp.o.d -o CMakeFiles/core_library.dir/utils/deserializer.cpp.o -c /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/deserializer.cpp
-
-src/CMakeFiles/core_library.dir/utils/deserializer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_library.dir/utils/deserializer.cpp.i"
-	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/deserializer.cpp > CMakeFiles/core_library.dir/utils/deserializer.cpp.i
-
-src/CMakeFiles/core_library.dir/utils/deserializer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/utils/deserializer.cpp.s"
-	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/deserializer.cpp -o CMakeFiles/core_library.dir/utils/deserializer.cpp.s
-
-src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o: src/CMakeFiles/core_library.dir/flags.make
-src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o: /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/property_container_manager.cpp
-src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o: src/CMakeFiles/core_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o"
-	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o -MF CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o.d -o CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o -c /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/property_container_manager.cpp
-
-src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_library.dir/utils/property_container_manager.cpp.i"
-	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/property_container_manager.cpp > CMakeFiles/core_library.dir/utils/property_container_manager.cpp.i
-
-src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/utils/property_container_manager.cpp.s"
-	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/property_container_manager.cpp -o CMakeFiles/core_library.dir/utils/property_container_manager.cpp.s
-
 src/CMakeFiles/core_library.dir/utils/id_context.cpp.o: src/CMakeFiles/core_library.dir/flags.make
 src/CMakeFiles/core_library.dir/utils/id_context.cpp.o: /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/id_context.cpp
 src/CMakeFiles/core_library.dir/utils/id_context.cpp.o: src/CMakeFiles/core_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/core_library.dir/utils/id_context.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/core_library.dir/utils/id_context.cpp.o"
 	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/core_library.dir/utils/id_context.cpp.o -MF CMakeFiles/core_library.dir/utils/id_context.cpp.o.d -o CMakeFiles/core_library.dir/utils/id_context.cpp.o -c /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/id_context.cpp
 
 src/CMakeFiles/core_library.dir/utils/id_context.cpp.i: cmake_force
@@ -142,7 +114,7 @@ src/CMakeFiles/core_library.dir/utils/id_context.cpp.s: cmake_force
 src/CMakeFiles/core_library.dir/utils/serializer.cpp.o: src/CMakeFiles/core_library.dir/flags.make
 src/CMakeFiles/core_library.dir/utils/serializer.cpp.o: /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/serializer.cpp
 src/CMakeFiles/core_library.dir/utils/serializer.cpp.o: src/CMakeFiles/core_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/core_library.dir/utils/serializer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/core_library.dir/utils/serializer.cpp.o"
 	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/core_library.dir/utils/serializer.cpp.o -MF CMakeFiles/core_library.dir/utils/serializer.cpp.o.d -o CMakeFiles/core_library.dir/utils/serializer.cpp.o -c /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/serializer.cpp
 
 src/CMakeFiles/core_library.dir/utils/serializer.cpp.i: cmake_force
@@ -153,27 +125,231 @@ src/CMakeFiles/core_library.dir/utils/serializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/utils/serializer.cpp.s"
 	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/serializer.cpp -o CMakeFiles/core_library.dir/utils/serializer.cpp.s
 
+src/CMakeFiles/core_library.dir/utils/property.cpp.o: src/CMakeFiles/core_library.dir/flags.make
+src/CMakeFiles/core_library.dir/utils/property.cpp.o: /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/property.cpp
+src/CMakeFiles/core_library.dir/utils/property.cpp.o: src/CMakeFiles/core_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/core_library.dir/utils/property.cpp.o"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/core_library.dir/utils/property.cpp.o -MF CMakeFiles/core_library.dir/utils/property.cpp.o.d -o CMakeFiles/core_library.dir/utils/property.cpp.o -c /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/property.cpp
+
+src/CMakeFiles/core_library.dir/utils/property.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_library.dir/utils/property.cpp.i"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/property.cpp > CMakeFiles/core_library.dir/utils/property.cpp.i
+
+src/CMakeFiles/core_library.dir/utils/property.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/utils/property.cpp.s"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/property.cpp -o CMakeFiles/core_library.dir/utils/property.cpp.s
+
+src/CMakeFiles/core_library.dir/utils/property_identifiable.cpp.o: src/CMakeFiles/core_library.dir/flags.make
+src/CMakeFiles/core_library.dir/utils/property_identifiable.cpp.o: /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/property_identifiable.cpp
+src/CMakeFiles/core_library.dir/utils/property_identifiable.cpp.o: src/CMakeFiles/core_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/core_library.dir/utils/property_identifiable.cpp.o"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/core_library.dir/utils/property_identifiable.cpp.o -MF CMakeFiles/core_library.dir/utils/property_identifiable.cpp.o.d -o CMakeFiles/core_library.dir/utils/property_identifiable.cpp.o -c /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/property_identifiable.cpp
+
+src/CMakeFiles/core_library.dir/utils/property_identifiable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_library.dir/utils/property_identifiable.cpp.i"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/property_identifiable.cpp > CMakeFiles/core_library.dir/utils/property_identifiable.cpp.i
+
+src/CMakeFiles/core_library.dir/utils/property_identifiable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/utils/property_identifiable.cpp.s"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/property_identifiable.cpp -o CMakeFiles/core_library.dir/utils/property_identifiable.cpp.s
+
+src/CMakeFiles/core_library.dir/utils/deserializer.cpp.o: src/CMakeFiles/core_library.dir/flags.make
+src/CMakeFiles/core_library.dir/utils/deserializer.cpp.o: /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/deserializer.cpp
+src/CMakeFiles/core_library.dir/utils/deserializer.cpp.o: src/CMakeFiles/core_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/core_library.dir/utils/deserializer.cpp.o"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/core_library.dir/utils/deserializer.cpp.o -MF CMakeFiles/core_library.dir/utils/deserializer.cpp.o.d -o CMakeFiles/core_library.dir/utils/deserializer.cpp.o -c /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/deserializer.cpp
+
+src/CMakeFiles/core_library.dir/utils/deserializer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_library.dir/utils/deserializer.cpp.i"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/deserializer.cpp > CMakeFiles/core_library.dir/utils/deserializer.cpp.i
+
+src/CMakeFiles/core_library.dir/utils/deserializer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/utils/deserializer.cpp.s"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/deserializer.cpp -o CMakeFiles/core_library.dir/utils/deserializer.cpp.s
+
+src/CMakeFiles/core_library.dir/utils/property_container.cpp.o: src/CMakeFiles/core_library.dir/flags.make
+src/CMakeFiles/core_library.dir/utils/property_container.cpp.o: /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/property_container.cpp
+src/CMakeFiles/core_library.dir/utils/property_container.cpp.o: src/CMakeFiles/core_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/core_library.dir/utils/property_container.cpp.o"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/core_library.dir/utils/property_container.cpp.o -MF CMakeFiles/core_library.dir/utils/property_container.cpp.o.d -o CMakeFiles/core_library.dir/utils/property_container.cpp.o -c /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/property_container.cpp
+
+src/CMakeFiles/core_library.dir/utils/property_container.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_library.dir/utils/property_container.cpp.i"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/property_container.cpp > CMakeFiles/core_library.dir/utils/property_container.cpp.i
+
+src/CMakeFiles/core_library.dir/utils/property_container.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/utils/property_container.cpp.s"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/property_container.cpp -o CMakeFiles/core_library.dir/utils/property_container.cpp.s
+
+src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o: src/CMakeFiles/core_library.dir/flags.make
+src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o: /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/property_container_manager.cpp
+src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o: src/CMakeFiles/core_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o -MF CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o.d -o CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o -c /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/property_container_manager.cpp
+
+src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_library.dir/utils/property_container_manager.cpp.i"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/property_container_manager.cpp > CMakeFiles/core_library.dir/utils/property_container_manager.cpp.i
+
+src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/utils/property_container_manager.cpp.s"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/property_container_manager.cpp -o CMakeFiles/core_library.dir/utils/property_container_manager.cpp.s
+
+src/CMakeFiles/core_library.dir/utils/serializable.cpp.o: src/CMakeFiles/core_library.dir/flags.make
+src/CMakeFiles/core_library.dir/utils/serializable.cpp.o: /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/serializable.cpp
+src/CMakeFiles/core_library.dir/utils/serializable.cpp.o: src/CMakeFiles/core_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/core_library.dir/utils/serializable.cpp.o"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/core_library.dir/utils/serializable.cpp.o -MF CMakeFiles/core_library.dir/utils/serializable.cpp.o.d -o CMakeFiles/core_library.dir/utils/serializable.cpp.o -c /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/serializable.cpp
+
+src/CMakeFiles/core_library.dir/utils/serializable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_library.dir/utils/serializable.cpp.i"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/serializable.cpp > CMakeFiles/core_library.dir/utils/serializable.cpp.i
+
+src/CMakeFiles/core_library.dir/utils/serializable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/utils/serializable.cpp.s"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/serializable.cpp -o CMakeFiles/core_library.dir/utils/serializable.cpp.s
+
+src/CMakeFiles/core_library.dir/utils/serialization_context.cpp.o: src/CMakeFiles/core_library.dir/flags.make
+src/CMakeFiles/core_library.dir/utils/serialization_context.cpp.o: /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/serialization_context.cpp
+src/CMakeFiles/core_library.dir/utils/serialization_context.cpp.o: src/CMakeFiles/core_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/core_library.dir/utils/serialization_context.cpp.o"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/core_library.dir/utils/serialization_context.cpp.o -MF CMakeFiles/core_library.dir/utils/serialization_context.cpp.o.d -o CMakeFiles/core_library.dir/utils/serialization_context.cpp.o -c /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/serialization_context.cpp
+
+src/CMakeFiles/core_library.dir/utils/serialization_context.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_library.dir/utils/serialization_context.cpp.i"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/serialization_context.cpp > CMakeFiles/core_library.dir/utils/serialization_context.cpp.i
+
+src/CMakeFiles/core_library.dir/utils/serialization_context.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/utils/serialization_context.cpp.s"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/serialization_context.cpp -o CMakeFiles/core_library.dir/utils/serialization_context.cpp.s
+
+src/CMakeFiles/core_library.dir/utils/id_placeholder.cpp.o: src/CMakeFiles/core_library.dir/flags.make
+src/CMakeFiles/core_library.dir/utils/id_placeholder.cpp.o: /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/id_placeholder.cpp
+src/CMakeFiles/core_library.dir/utils/id_placeholder.cpp.o: src/CMakeFiles/core_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/core_library.dir/utils/id_placeholder.cpp.o"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/core_library.dir/utils/id_placeholder.cpp.o -MF CMakeFiles/core_library.dir/utils/id_placeholder.cpp.o.d -o CMakeFiles/core_library.dir/utils/id_placeholder.cpp.o -c /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/id_placeholder.cpp
+
+src/CMakeFiles/core_library.dir/utils/id_placeholder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_library.dir/utils/id_placeholder.cpp.i"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/id_placeholder.cpp > CMakeFiles/core_library.dir/utils/id_placeholder.cpp.i
+
+src/CMakeFiles/core_library.dir/utils/id_placeholder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/utils/id_placeholder.cpp.s"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/id_placeholder.cpp -o CMakeFiles/core_library.dir/utils/id_placeholder.cpp.s
+
+src/CMakeFiles/core_library.dir/utils/identifiable.cpp.o: src/CMakeFiles/core_library.dir/flags.make
+src/CMakeFiles/core_library.dir/utils/identifiable.cpp.o: /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/identifiable.cpp
+src/CMakeFiles/core_library.dir/utils/identifiable.cpp.o: src/CMakeFiles/core_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/core_library.dir/utils/identifiable.cpp.o"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/core_library.dir/utils/identifiable.cpp.o -MF CMakeFiles/core_library.dir/utils/identifiable.cpp.o.d -o CMakeFiles/core_library.dir/utils/identifiable.cpp.o -c /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/identifiable.cpp
+
+src/CMakeFiles/core_library.dir/utils/identifiable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_library.dir/utils/identifiable.cpp.i"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/identifiable.cpp > CMakeFiles/core_library.dir/utils/identifiable.cpp.i
+
+src/CMakeFiles/core_library.dir/utils/identifiable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/utils/identifiable.cpp.s"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/identifiable.cpp -o CMakeFiles/core_library.dir/utils/identifiable.cpp.s
+
+src/CMakeFiles/core_library.dir/utils/object_data.cpp.o: src/CMakeFiles/core_library.dir/flags.make
+src/CMakeFiles/core_library.dir/utils/object_data.cpp.o: /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/object_data.cpp
+src/CMakeFiles/core_library.dir/utils/object_data.cpp.o: src/CMakeFiles/core_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/core_library.dir/utils/object_data.cpp.o"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/core_library.dir/utils/object_data.cpp.o -MF CMakeFiles/core_library.dir/utils/object_data.cpp.o.d -o CMakeFiles/core_library.dir/utils/object_data.cpp.o -c /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/object_data.cpp
+
+src/CMakeFiles/core_library.dir/utils/object_data.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_library.dir/utils/object_data.cpp.i"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/object_data.cpp > CMakeFiles/core_library.dir/utils/object_data.cpp.i
+
+src/CMakeFiles/core_library.dir/utils/object_data.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/utils/object_data.cpp.s"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/utils/object_data.cpp -o CMakeFiles/core_library.dir/utils/object_data.cpp.s
+
+src/CMakeFiles/core_library.dir/messages/pose_message.cpp.o: src/CMakeFiles/core_library.dir/flags.make
+src/CMakeFiles/core_library.dir/messages/pose_message.cpp.o: /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/messages/pose_message.cpp
+src/CMakeFiles/core_library.dir/messages/pose_message.cpp.o: src/CMakeFiles/core_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/core_library.dir/messages/pose_message.cpp.o"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/core_library.dir/messages/pose_message.cpp.o -MF CMakeFiles/core_library.dir/messages/pose_message.cpp.o.d -o CMakeFiles/core_library.dir/messages/pose_message.cpp.o -c /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/messages/pose_message.cpp
+
+src/CMakeFiles/core_library.dir/messages/pose_message.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_library.dir/messages/pose_message.cpp.i"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/messages/pose_message.cpp > CMakeFiles/core_library.dir/messages/pose_message.cpp.i
+
+src/CMakeFiles/core_library.dir/messages/pose_message.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/messages/pose_message.cpp.s"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/messages/pose_message.cpp -o CMakeFiles/core_library.dir/messages/pose_message.cpp.s
+
+src/CMakeFiles/core_library.dir/messages/base_sensor_message.cpp.o: src/CMakeFiles/core_library.dir/flags.make
+src/CMakeFiles/core_library.dir/messages/base_sensor_message.cpp.o: /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/messages/base_sensor_message.cpp
+src/CMakeFiles/core_library.dir/messages/base_sensor_message.cpp.o: src/CMakeFiles/core_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/core_library.dir/messages/base_sensor_message.cpp.o"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/core_library.dir/messages/base_sensor_message.cpp.o -MF CMakeFiles/core_library.dir/messages/base_sensor_message.cpp.o.d -o CMakeFiles/core_library.dir/messages/base_sensor_message.cpp.o -c /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/messages/base_sensor_message.cpp
+
+src/CMakeFiles/core_library.dir/messages/base_sensor_message.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_library.dir/messages/base_sensor_message.cpp.i"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/messages/base_sensor_message.cpp > CMakeFiles/core_library.dir/messages/base_sensor_message.cpp.i
+
+src/CMakeFiles/core_library.dir/messages/base_sensor_message.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/messages/base_sensor_message.cpp.s"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/messages/base_sensor_message.cpp -o CMakeFiles/core_library.dir/messages/base_sensor_message.cpp.s
+
+src/CMakeFiles/core_library.dir/messages/odometry_message.cpp.o: src/CMakeFiles/core_library.dir/flags.make
+src/CMakeFiles/core_library.dir/messages/odometry_message.cpp.o: /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/messages/odometry_message.cpp
+src/CMakeFiles/core_library.dir/messages/odometry_message.cpp.o: src/CMakeFiles/core_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/core_library.dir/messages/odometry_message.cpp.o"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/core_library.dir/messages/odometry_message.cpp.o -MF CMakeFiles/core_library.dir/messages/odometry_message.cpp.o.d -o CMakeFiles/core_library.dir/messages/odometry_message.cpp.o -c /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/messages/odometry_message.cpp
+
+src/CMakeFiles/core_library.dir/messages/odometry_message.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_library.dir/messages/odometry_message.cpp.i"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/messages/odometry_message.cpp > CMakeFiles/core_library.dir/messages/odometry_message.cpp.i
+
+src/CMakeFiles/core_library.dir/messages/odometry_message.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/messages/odometry_message.cpp.s"
+	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/src/messages/odometry_message.cpp -o CMakeFiles/core_library.dir/messages/odometry_message.cpp.s
+
 # Object files for target core_library
 core_library_OBJECTS = \
 "CMakeFiles/core_library.dir/utils/property_eigen.cpp.o" \
 "CMakeFiles/core_library.dir/utils/blob.cpp.o" \
-"CMakeFiles/core_library.dir/utils/deserializer.cpp.o" \
-"CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o" \
 "CMakeFiles/core_library.dir/utils/id_context.cpp.o" \
-"CMakeFiles/core_library.dir/utils/serializer.cpp.o"
+"CMakeFiles/core_library.dir/utils/serializer.cpp.o" \
+"CMakeFiles/core_library.dir/utils/property.cpp.o" \
+"CMakeFiles/core_library.dir/utils/property_identifiable.cpp.o" \
+"CMakeFiles/core_library.dir/utils/deserializer.cpp.o" \
+"CMakeFiles/core_library.dir/utils/property_container.cpp.o" \
+"CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o" \
+"CMakeFiles/core_library.dir/utils/serializable.cpp.o" \
+"CMakeFiles/core_library.dir/utils/serialization_context.cpp.o" \
+"CMakeFiles/core_library.dir/utils/id_placeholder.cpp.o" \
+"CMakeFiles/core_library.dir/utils/identifiable.cpp.o" \
+"CMakeFiles/core_library.dir/utils/object_data.cpp.o" \
+"CMakeFiles/core_library.dir/messages/pose_message.cpp.o" \
+"CMakeFiles/core_library.dir/messages/base_sensor_message.cpp.o" \
+"CMakeFiles/core_library.dir/messages/odometry_message.cpp.o"
 
 # External object files for target core_library
 core_library_EXTERNAL_OBJECTS =
 
 src/libcore_library.so: src/CMakeFiles/core_library.dir/utils/property_eigen.cpp.o
 src/libcore_library.so: src/CMakeFiles/core_library.dir/utils/blob.cpp.o
-src/libcore_library.so: src/CMakeFiles/core_library.dir/utils/deserializer.cpp.o
-src/libcore_library.so: src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o
 src/libcore_library.so: src/CMakeFiles/core_library.dir/utils/id_context.cpp.o
 src/libcore_library.so: src/CMakeFiles/core_library.dir/utils/serializer.cpp.o
+src/libcore_library.so: src/CMakeFiles/core_library.dir/utils/property.cpp.o
+src/libcore_library.so: src/CMakeFiles/core_library.dir/utils/property_identifiable.cpp.o
+src/libcore_library.so: src/CMakeFiles/core_library.dir/utils/deserializer.cpp.o
+src/libcore_library.so: src/CMakeFiles/core_library.dir/utils/property_container.cpp.o
+src/libcore_library.so: src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o
+src/libcore_library.so: src/CMakeFiles/core_library.dir/utils/serializable.cpp.o
+src/libcore_library.so: src/CMakeFiles/core_library.dir/utils/serialization_context.cpp.o
+src/libcore_library.so: src/CMakeFiles/core_library.dir/utils/id_placeholder.cpp.o
+src/libcore_library.so: src/CMakeFiles/core_library.dir/utils/identifiable.cpp.o
+src/libcore_library.so: src/CMakeFiles/core_library.dir/utils/object_data.cpp.o
+src/libcore_library.so: src/CMakeFiles/core_library.dir/messages/pose_message.cpp.o
+src/libcore_library.so: src/CMakeFiles/core_library.dir/messages/base_sensor_message.cpp.o
+src/libcore_library.so: src/CMakeFiles/core_library.dir/messages/odometry_message.cpp.o
 src/libcore_library.so: src/CMakeFiles/core_library.dir/build.make
 src/libcore_library.so: src/CMakeFiles/core_library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library libcore_library.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX shared library libcore_library.so"
 	cd /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core_library.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

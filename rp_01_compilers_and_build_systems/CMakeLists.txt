@@ -6,7 +6,7 @@ set(CMAKE_CXX_FLAGS "-Wall -Wextra -pedantic")
 
 # TODO invokes the routines to find a package called Eigen3
 find_package(Eigen3 REQUIRED)
-include_directories(${Eigen3_INCLUDE_DIRS})
+#LA SOLUZIONE NON LO METTE!: include_directories(${Eigen3_INCLUDE_DIRS}) 
 
 # add project source code
 add_subdirectory(src)

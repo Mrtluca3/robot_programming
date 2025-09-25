@@ -114,12 +114,12 @@ src/clean: src/CMakeFiles/core_library.dir/clean
 src/CMakeFiles/core_library.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target core_library"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target core_library"
 .PHONY : src/CMakeFiles/core_library.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/core_library.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/core_library.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/core_library.dir/rule
@@ -137,15 +137,15 @@ src/CMakeFiles/core_library.dir/clean:
 # Target rules for target executables/CMakeFiles/first_program.dir
 
 # All Build rule for target.
-executables/CMakeFiles/first_program.dir/all:
+executables/CMakeFiles/first_program.dir/all: src/CMakeFiles/core_library.dir/all
 	$(MAKE) $(MAKESILENT) -f executables/CMakeFiles/first_program.dir/build.make executables/CMakeFiles/first_program.dir/depend
 	$(MAKE) $(MAKESILENT) -f executables/CMakeFiles/first_program.dir/build.make executables/CMakeFiles/first_program.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=8,9 "Built target first_program"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles --progress-num=19,20 "Built target first_program"
 .PHONY : executables/CMakeFiles/first_program.dir/all
 
 # Build rule for subdir invocation for target.
 executables/CMakeFiles/first_program.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 executables/CMakeFiles/first_program.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrtlu/rp_ex1/rp_01_compilers_and_build_systems/build/CMakeFiles 0
 .PHONY : executables/CMakeFiles/first_program.dir/rule
