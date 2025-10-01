@@ -14,5 +14,6 @@ add_executable(first_program
     many_object_in_stack_example.cpp
 )
 # TODO: link the executable against the core_library
-target_link_libraries(first_program core_library)
+target_link_libraries(first_program PRIVATE core_library)
+ #I can add private because it is an executable i dont expect anyone to link a program
 
