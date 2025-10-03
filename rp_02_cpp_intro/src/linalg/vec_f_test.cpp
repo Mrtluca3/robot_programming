@@ -23,5 +23,6 @@ int main() {
   cerr << "diff: " << v1-v2 << endl;
 
   v1.at(2)+=4;
-  cerr << v1+(v2*2.f) << endl;
+  cerr << "v1 modificato" << v1;
+  cerr << "v1 sommato a v2*2" <<v1+(v2*2.f) << endl;
 }
