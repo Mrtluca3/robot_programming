@@ -1,4 +1,4 @@
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 14) #define varibale
 
 set(CMAKE_CXX_FLAGS "-pedantic -Wall -Wextra")
 

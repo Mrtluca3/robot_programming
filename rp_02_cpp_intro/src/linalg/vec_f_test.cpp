@@ -11,11 +11,11 @@ int main() {
   cerr << "v1: " << v1 << endl;
 
   VecF v2(v1);
-  cerr << "v2: " << v2 << endl;
+  cerr << "v2: creato con v2(v1) copy constructor" << v2 << endl;
 
   VecF v3;
   v3=v2;
-  cerr << "v3: " << v3 << endl;
+  cerr << "v3, creato con v3=v2 : " << v3 << endl;
 
 
   cerr << "sum: " << v1+v2 << endl;

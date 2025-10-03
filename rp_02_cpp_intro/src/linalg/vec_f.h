@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 
+//you ara just declaring now!!
 struct VecF {
   int dim; // guess what
   float* v; // elements to the data

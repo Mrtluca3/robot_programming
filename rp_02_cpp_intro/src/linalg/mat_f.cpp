@@ -6,19 +6,19 @@ using namespace std;
 
 //default ctor
 MatF::MatF():
-  rows(0),
+  rows(0), // MEMBER INITIALIZER LIST
   cols(0),
   dimension(0),
   v(nullptr){}
 
 // ctor with dim
 MatF::MatF(int rows_, int cols_):
-  rows(rows_),
+  rows(rows_), // MEMBER INITIALIZER LIST
   cols(cols_),
   dimension(rows*cols),
   v(new float[dimension]){}
 
-// copy ctor
+// copy ctor 
 MatF::MatF(const MatF& other):
   MatF(other.rows, other.cols){
   for (int i=0; i<dimension; ++i)
@@ -27,7 +27,7 @@ MatF::MatF(const MatF& other):
 
 // dtor
 MatF::~MatF() {
-  if (dimension)
+  if (dimension) //!=0
     delete [] v;
 }
 
@@ -66,7 +66,19 @@ const float& MatF::at(int r, int c) const {
 // op =, deep copy
 MatF& MatF::operator =(const MatF& other) {
   // TODO: fillme
-
+  if (cols!=other.cols || rows!=other.rows)
+  {
+    cols=other.cols;
+    rows=other.rows;
+    dimension=cols*rows;
+    delete [] v;
+    v=0;
+    if (! dimension) return *this;
+    v=new float[dimension];
+  }
+  
+  for(int i=0; i<dimension; ++i)
+   v[i]=other.v[i];
   return *this;
 }
 
@@ -74,37 +86,62 @@ MatF& MatF::operator =(const MatF& other) {
 MatF MatF::operator +(const MatF& other) const {
   assert (other.cols==cols && other.rows==rows && "dim mismatch");
   MatF returned (*this);
-
+  for(int i=0; i<dimension; ++i)
+   returned.v[i]+=other.v[i];
   // TODO: fillme
-
   return returned;
 }
 
 // returns the difference this - other
 MatF MatF::operator -(const MatF& other) const {
-
   // TODO: fillme
+  assert (other.cols==cols && other.rows==rows && "dim mismatch");
+  MatF returned (*this);
+  for(int i=0; i<dimension; ++i)
+   returned.v[i]-=other.v[i];
+  return returned;
 
 }  
 
 // returns this*f
-MatF MatF::operator* (float f) const {
+MatF MatF::operator *(float f) const {
   // TODO: fillme
+  MatF copia(*this);
+  for(int i=0; i<dimension; ++i)
+   copia.v[i]*=f;
+  return copia;
 }
+
 
 // returns this * other
 VecF MatF::operator *(const VecF& other) const {
   assert(other.dim==cols && "dim mismatch");
   VecF returned (rows);
   // TODO: fillme
+  for(int i=0; i<rows; ++i)
+   {
+    for(int j=0; j<cols; ++j)
+     returned.v[i]+= v[i*cols+j]*other.v[j];
+   }
   return returned;
 }
+
+
 
 // returns this* other
 MatF MatF::operator *(const MatF& other) const {
   assert(cols==other.rows && "dimension mismatch");
   MatF returned(rows, other.cols);
+  returned.fill(0.);
   //TODO: fillme
+  for(int i=0; i<rows; ++i)
+   {
+    for(int j=0; j<other.cols; ++j)
+     {
+      for(int k=0; k<cols; ++k)
+        returned.at(i, j)+= (*this).at(i, k)*other.at(k, j);
+     }
+   }
   return returned;
 }
 
