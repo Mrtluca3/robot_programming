@@ -2,9 +2,9 @@
 
 
 TreeNodeInt::TreeNodeInt(int value_,
-                         TreeNodeInt* left_,
+                         TreeNodeInt* left_, //I DEFAULT VALUES SONO DICHIARATI NELL'HEADER
                          TreeNodeInt* right_):
-  value(value_),
+  value(value_),// THIS IS MEMBER_INITIALIZER_LIST
   left(left_),
   right(right_){}
 
@@ -15,10 +15,15 @@ TreeNodeInt::~TreeNodeInt(){
     delete right;
 }
 
-TreeNodeInt* TreeNodeInt::find(int value_) {
+TreeNodeInt* TreeNodeInt::find(int value_) { //return 0 se non ci sta, sennò returna il valore se lo trova
   if (value==value_)
-    return this;
+    return this; //returna un puntatore infatti
   if (value_<value) {
+    if (!left) //solo se left è 0
+     return 0;
+    return left->find(value_); 
+    //accede alla funzione, al metodo find del nodo puntata dal puntatore left, che returnerà un puntatore
+   
     // TODO: fill here
     // if there is a left child, continue the search in the left, otherwise return null
   }
@@ -36,13 +41,17 @@ bool TreeNodeInt::add(int value_) {
     return false;
   if (value_<value) {
     if (! left) {
-      left=new TreeNodeInt(value_);
+      left=new TreeNodeInt(value_); //alloca nuova memoria
       return true;
     }
-    return left->add(value_);
+    return left->add(value_); //sennò accede a quello dopo tramite il metodo add di left node
   }
   if (value_>value) {
-    // TODO: fill here
+    if (! right) {
+      right=new TreeNodeInt(value_); //alloca nuova memoria
+      return true;
+    }
+    return right->add(value_);
   }
   return false;
 }

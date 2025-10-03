@@ -5,7 +5,7 @@ struct MatF {
   int rows, cols, dimension; // guess what
   float* v; // elements to the data
 
-  // default ctor
+  // default ctor OSSERVA CHE I CONSTRUCT NON HANNO TIPI NELL'HEADER FILE
   MatF();
 
   // ctor with dim
