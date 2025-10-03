@@ -12,7 +12,7 @@ target_link_libraries(mat_f_library
 add_executable(programma_vettori
   vec_f_test.cpp)
 
-target_link_libraries(vec_f_test
+target_link_libraries(programma_vettori
   vec_f_library)
 
 add_executable(programma_matrici
