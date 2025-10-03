@@ -1,0 +1,26 @@
+# Cartelle da ignorare specifiche del progetto
+robotprogramming_2025_26/
+ros2_ws/
+
+# File e cartelle di sistema / configurazioni utente
+.bash_history
+.bash_logout
+.bashrc
+.lesshst
+.motd_shown
+.profile
+.sudo_as_admin_successful
+.wget-hsts
+
+# Cartelle e configurazioni locali
+.cache/
+.dotnet/
+.local/
+.pixi/
+.ssh/
+.vscode-remote-containers/
+.vscode-server/
+
+# Git credentials e config personali
+.git-credentials
+.gitconfig
