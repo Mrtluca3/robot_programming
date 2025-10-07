@@ -1,2 +1,2 @@
-# robot_programming
+# Robot_programming
 This folder contains all the codes produced during the course of ROBOT PROGRAMMING (3 ects), held by prof. Grisetti in Sapienza Msc of Ai and Robotics. All the folders are named with serial number "rp_xx", followed by the main themes of that codes, all with Cmake codes.
