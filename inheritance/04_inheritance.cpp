@@ -2,6 +2,7 @@
 #ifndef  firstprint
 #define  firstprint 1
 #endif
+
 using namespace std; // we will discover this later
 
 // classes (and structs) can be extended
@@ -46,6 +47,7 @@ struct B: public A {
     cerr << "B [" << this << "]" << " dtor" << endl;
   }
   
+  #ifndef defineBprint
   void print() { 
     cerr << "\n !!this is a B printing!! \n";
     
@@ -58,7 +60,7 @@ struct B: public A {
      A::print();
 
   }
-
+  #endif 
 };
 
 int main(int argc, char** argv) {
@@ -73,7 +75,7 @@ int main(int argc, char** argv) {
   
   cerr << "\ncreate B " << endl;
   B b;
-  b.print();
+  b.print(); //SE NON DEFINISCO IL PRINT IN B, COMUNAUE MI STAMPA USANDO SOLO IL METODO IN A OVVIAMENTE
 
   // legal assignment a is base class of b, only common member vars are copied
   A a1=b; 
