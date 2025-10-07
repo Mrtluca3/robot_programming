@@ -12,6 +12,7 @@ ros2_ws/
 .sudo_as_admin_successful
 .wget-hsts
 
+.vscode/
 # Cartelle e configurazioni locali
 .cache/
 .dotnet/
