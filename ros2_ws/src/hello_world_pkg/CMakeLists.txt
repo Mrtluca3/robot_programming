@@ -11,13 +11,13 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
-add_executable(hello_world_name src/hello_world_name.cpp)
-target_include_directories(hello_world_name PUBLIC
+add_executable(myexe src/hello_world_name.cpp)
+target_include_directories(myexe PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
-target_compile_features(hello_world_name PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+target_compile_features(myexe PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 
-install(TARGETS hello_world_name
+install(TARGETS myexe
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

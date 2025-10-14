@@ -39,3 +39,5 @@ install(TARGET
         talker
         DESTINATION lib/${PROJECT_NAME}) #OVVERO cpp_pubsub
 ament_package()
+# Senza ament_package(), un altro pacchetto non potrebbe fare:
+# find_package(my_package REQUIRED)

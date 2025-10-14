@@ -5,6 +5,6 @@ int main(int argc, char ** argv)
   (void) argc;
   (void) argv;
 
-  printf("hello world hello_world_pkg package\n");
+  printf("this is hello_world_pkg package: \nHELLO WORLD\n");
   return 0;
 }

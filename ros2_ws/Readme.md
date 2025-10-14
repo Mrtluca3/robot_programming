@@ -117,3 +117,7 @@ If you find issues related to the configuration of this repository,
 AKA you cannot compile because you are missing some packages or similar,
 please contact me at: `giacomini at diag.uniroma1.it`
 with prefix `[RP]` on the title of the email.
+
+
+# NOTE:
+In install/ there are all the exectutables created by ''colcon build'' command
