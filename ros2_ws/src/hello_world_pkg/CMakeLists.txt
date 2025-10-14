@@ -17,7 +17,7 @@ target_include_directories(myexe PUBLIC
   $<INSTALL_INTERFACE:include>)
 target_compile_features(myexe PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 
-install(TARGETS myexe
+install(TARGETS myexe 
   DESTINATION lib/${PROJECT_NAME}) #The destination will be in install/name_of_package/lib/project name so hello_world_pkg
 
 if(BUILD_TESTING)

@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.10)
 project(cpp_pubsub)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
@@ -10,7 +10,7 @@ find_package(ament_cmake REQUIRED) #included
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
-find_package(rclcpp REQUIRED) #lo aggiungo io serve
+find_package(rclcpp REQUIRED) #lo aggiungo io serve (also in package.xml )
 find_package(std_msgs REQUIRED)
 
 if(BUILD_TESTING)
@@ -35,9 +35,8 @@ add_executable(talker src/publisher_member_function.cpp)
 ament_target_dependencies(talker rclcpp std_msgs) #to link to projects together: DEPENDENCIES MUST BE RESOLVED WITH AMENT
 # != DA TARGET_LINK_LIBRARIES OR targt_include_directoris
 
-install(TARGET 
-        talker
-        DESTINATION lib/${PROJECT_NAME}) #OVVERO cpp_pubsub
+install(TARGETS talker #which of creted targets  (libraries or executables) has to be moved in instal/package_name/lib/project_name
+        DESTINATION lib/${PROJECT_NAME}) #OVVERO cpp_pubsub # poteva essere: DEstination share/${}
 ament_package()
 # Senza ament_package(), un altro pacchetto non potrebbe fare:
 # find_package(my_package REQUIRED)

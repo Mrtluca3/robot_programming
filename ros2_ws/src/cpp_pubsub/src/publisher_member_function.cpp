@@ -15,7 +15,7 @@
 #include <chrono>
 #include <memory>
 
-#include "rclcpp/rclcpp.hpp"
+#include "rclcpp/rclcpp.hpp"  //ros client library in cpp
 #include "std_msgs/msg/string.hpp"
 
 using namespace std::chrono_literals;
@@ -31,7 +31,7 @@ public:
   MinimalPublisher() //ctor!
   : Node("minimal_publisher"), count_(0)
   {//ctor after memeber initializer list
-    publisher_ = this->create_publisher<std_msgs::msg::String>("topic", 10); //use the topic 'topic' 
+    publisher_ = this->create_publisher<std_msgs::msg::String>("topic_my", 10); //use the topic 'topic_my' 
     //std_msgs::msg::String ->> string message only contains a string
     timer_ = this->create_wall_timer(
       //create a timer. each tick, after the binding, you call the constructed bond  
@@ -47,7 +47,7 @@ private:
     RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
     publisher_->publish(message);
   }
-  rclcpp::TimerBase::SharedPtr timer_;
+  rclcpp::TimerBase::SharedPtr timer_; //scooping
   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
   size_t count_;
 };
@@ -55,6 +55,13 @@ private:
 int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
+  // auto node= std::make_shared<MinimalPublisher>();
+  //  std::make_shared<T>(...) è una funzione di C++ che 
+  //  crea un oggetto di tipo T e ritorna un std::shared_ptr<T>,
+  //  cioè un puntatore intelligente condiviso.
+  //
+  //  auto è una keyword di C++ che fa dedurre automaticamente il tipo 
+  //  di una variabile dal valore con cui viene inizializzata.
   rclcpp::spin(std::make_shared<MinimalPublisher>()); //diamo moto al nodo nostro
   rclcpp::shutdown();
   return 0;
