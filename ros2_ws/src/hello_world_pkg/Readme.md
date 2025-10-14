@@ -7,9 +7,13 @@
 
 # package.xml tells ROS (and colcon):
  -the name of the package
+
  -who is mantaining it (autore, licenza, descrizione)
+ 
  -other packages dependencies (test, compiling, execution)
+ 
  -current version used
+ 
  -additional tags (e.g. build type or URL of reference)
 
 
@@ -17,17 +21,26 @@
     
 # NOTE: 
  ~/ros2_ws/src/ ros2 pkg create --build-type ament_cmake --node-name hello_world_node hello_world_pkg 
+ 
  It is needed to create the package with the name you choose:
 es. 
+ 
  /ros2_ws/src$ ros2 pkg create --build-type ament_cmake pippo_pkg
+ 
    going to create a new package
+ 
    package name: pippo_pkg
+ 
    destination directory: /home/mrtlu/ros2_ws/src
 
  (multiplatform_ros2_builder) mrtlu@LAPTOP-VQONFVD8:~/ros2_ws/src$ ls
+ 
    Readme.md  cpp_pubsub  hello_world_pkg  pippo_pkg
+ 
  (multiplatform_ros2_builder) mrtlu@LAPTOP-VQONFVD8:~/ros2_ws/src$ cd pippo_pkg
+ 
  (multiplatform_ros2_builder) mrtlu@LAPTOP-VQONFVD8:~/ros2_ws/src/pippo_pkg$ ls
+ 
    CMakeLists.txt  include  package.xml  src
 
    NOTE: in src/ there is nothing, as in /include/pippo_pkg
