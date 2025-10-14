@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CycloneDDS xmlns="https://cdds.io/config">
+  <Domain>
+    <General>
+      <!-- Only allow loopback (localhost) -->
+      <NetworkInterfaceAddress>lo</NetworkInterfaceAddress>
+    </General>
+    <Discovery>
+      <!-- Disable multicast (prevents LAN discovery) -->
+      <Multicast enabled="false"/>
+    </Discovery>
+  </Domain>
+</CycloneDDS>
