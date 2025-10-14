@@ -25,3 +25,4 @@ robotprogramming_2025_26/
 # Git credentials e config personali
 .git-credentials
 .gitconfig
+.ros/log 
