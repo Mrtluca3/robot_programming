@@ -1,1 +1,1 @@
-This file is here just for keeping the src directory in the git versioning 
+Here there are all the packages that I create in the src/ repository of my workspace ros2_ws/

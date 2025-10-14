@@ -7,8 +7,8 @@ install/
 log/
 
 .vscode/
-cyclonedds.xml
-fastdds.xml
+# cyclonedds.xml
+# fastdds.xml
 
 # Colcon metadata
 .colcon/
