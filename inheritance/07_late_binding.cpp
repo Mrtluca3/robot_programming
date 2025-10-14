@@ -126,7 +126,7 @@ int main(int argc, char ** argv) {
     c.print();
     cerr << "5) b_ref object: HOW DOES IT PRINT?: PRINT AS B"<< endl;
     b_ref.print();    
-    cerr << "6) b_copied: HOW DOES IT PRINT?: PRINT AS B"<< endl;
+    cerr << "6) b_copied: HOW DOES IT PRINT?: PRINT AS B"  << endl;
     b_copied.print();    
     
   }

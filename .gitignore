@@ -1,6 +1,6 @@
 # Cartelle da ignorare specifiche del progetto
 robotprogramming_2025_26/
-ros2_ws/
+# ros2_ws/
 
 # File e cartelle di sistema / configurazioni utente
 .bash_history
