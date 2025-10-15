@@ -32,6 +32,8 @@ endif()
 
 
 add_executable(talker src/publisher_member_function.cpp)
+
+###questo qua sotto è importantissimo!!
 ament_target_dependencies(talker rclcpp std_msgs) #to link to projects together: DEPENDENCIES MUST BE RESOLVED WITH AMENT
 # != DA TARGET_LINK_LIBRARIES OR targt_include_directoris
 

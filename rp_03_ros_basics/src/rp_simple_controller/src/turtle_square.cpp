@@ -47,7 +47,7 @@ class TurtleSquareNode : public rclcpp::Node {
     // The timer is set to call the timer_callback function every 1millisecond
     // [1ms]: this is A GOOD TIMING IN ROBOT PROGRAMMING
     timer = this->create_wall_timer(
-        20ms, std::bind(&TurtleSquareNode::timer_callback, this));
+        16ms, std::bind(&TurtleSquareNode::timer_callback, this));
   } //MODIFIED 20MS<-1MS
 
  private:
@@ -89,7 +89,7 @@ class TurtleSquareNode : public rclcpp::Node {
     current_time += dt;
     
     if (state == 0) {
-      if (current_time < side_length / trans_vel) { 
+      if (current_time <= side_length / trans_vel) { 
         //current time is less than time of "forward moss" continua ad andare dritto
         v = trans_vel;
         w = 0.0;
@@ -99,7 +99,7 @@ class TurtleSquareNode : public rclcpp::Node {
         // v=0;
       }
     } else if (state == 1) {
-      if (current_time < angle_to_turn / rot_vel) {
+      if (current_time <= angle_to_turn / rot_vel) {
         v = 0.0;
         w = rot_vel;
       } else {
@@ -150,7 +150,7 @@ class TurtleSquareNode : public rclcpp::Node {
 
 
   // Simulation parameters
-  const float dt = 0.02;  // timer_callback is called every 0.001 seconds [if
+  const float dt = 0.016;  // timer_callback is called every 0.001 seconds [if
                           // changed, remember to change the timer period]
   float current_time = 0.0f;
   bool state = 0;  // 0 forward - 1 turn
@@ -159,8 +159,8 @@ class TurtleSquareNode : public rclcpp::Node {
   float angle_to_turn = pi * 0.5;  // To turn of 90 degrees
   // Pre-set velocities.
 
-  float trans_vel = 1.0;
-  float rot_vel = 1.0;
+  float trans_vel = 0.5;
+  float rot_vel = 0.5;
 };
 
 int main(int argc, char** argv) {

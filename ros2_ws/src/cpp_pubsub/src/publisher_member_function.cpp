@@ -31,7 +31,7 @@ public:
   MinimalPublisher() //ctor!
   : Node("minimal_publisher"), count_(0)
   {//ctor after memeber initializer list
-    publisher_ = this->create_publisher<std_msgs::msg::String>("topic_my", 10); //use the topic 'topic_my' 
+    publisher_ = this->create_publisher<std_msgs::msg::String>("topic_my", 10); //use the topic 'topic_my' , //10== numero di messaggi tenuti nel buffer
     //std_msgs::msg::String ->> string message only contains a string
     timer_ = this->create_wall_timer(
       //create a timer. each tick, after the binding, you call the constructed bond  
