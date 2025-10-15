@@ -1,0 +1,18 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+build/
+install/
+log/
+
+.vscode/
+# cyclonedds.xml
+# fastdds.xml
+
+# Colcon metadata
+.colcon/
+
+# Python cache
+__pycache__/
+*.pyc
