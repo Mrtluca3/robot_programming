@@ -172,34 +172,81 @@ ostream& operator <<(ostream& os, const Rotation2f& src){
     return os;
 }
 
-// struct Isometry2f {
-//     static constexp int Dim=2;
-//     Scalar t[Dim];
-//     Scalar R[Dim][Dim];
+struct Isometry2f:
+ public Rotation2f, public Vec2f
+{
+    using Rotation2f::Dim; 
+    void setIdentity()
+    {  
+        Rotation2f::setIdentity();
+        Vec2f::fill();
+    }
+    Isometry2f inverse() const{
+      Isometry2f src;
+      Rotation2f d2= (*this);
+      Vec2f vettor = (*this);
+      src.setAngle(d2.inverse().angle()); //crea R
+      src.fill();
+      for(int i=0; i<Dim; ++i)
+       {
+        cout << src.values[i] <<endl;
+        src.values[i] =  -(d2.inverse() * vettor).values[i] ;
+       }
+      
+      return src;
 
-//     void setIdentity()
-//     {  t=0 R=_Identity
+    }
+     Isometry2f operator *(const Isometry2f& src) const//to compose isometries
+     {
+       Isometry2f sec2;
+       Rotation2f dumb=src;
+       Rotation2f d2= (*this);
+       Vec2f vettor = src;
+       sec2.fill();
+       sec2.setAngle((d2 * dumb).angle()); //crea R
+       for(int i=0; i< Dim; i++)
+       {
+         sec2.values[i] = values[i] + (d2 *  vettor).values[i];
+       }
+       return sec2;
+     }
 
-//     }
-//     Isometry2f inverse() const{
-//        return Rtranspose 
-//        return -Rr transposed t
 
-//     }
-//     Isometry2f operator *(const Isometry2f& src) //to compose isometries
-//     {
+    // Vec2f operator *(const Vec2f& src)
+    // {
 
-//     }
+    // }
+
+};
+ostream& operator <<(ostream& os, const Isometry2f& src){
+    os << "["<< &src<<"]"<< endl;
+    os << "[";
+    for(int i=0; i<src.Dim; ++i){
+     os << "[";
+     for(int j=0; j<src.Dim; ++j){
+        os << src.R[i][j];
+        if (j !=src.Dim-1) os << " ";
+     }
+     os << "]";
+     os << "[" << src.values[i] <<"]";
+     if (i !=src.Dim-1) os << endl;
+    }
+    os << "]"<<endl;
+    return os;
+}
 
 
-//     Vec2f operator *(const Vec2f& src)
-//     {
-
-//     }
-
-// };
 
 int main(void){ 
+
+ Isometry2f isos;
+
+ isos.setIdentity();
+ isos.setAngle(M_PI/4);
+ isos.fill(2);
+ cout << isos << endl;
+ cout << isos.inverse() << endl;
+ cout << isos.inverse()*isos << endl;
 //  Vec2f v1;
 //  v1.fill();
 //  cout << v1;
@@ -212,11 +259,11 @@ int main(void){
 
 
 
-  Rotation2f rot1;
+//   Rotation2f rot1;
   //done
 //   cout << "created" << endl;
 //   cout << rot1;
-  rot1.setIdentity();
+//   rot1.setIdentity();
 //   rot1.R[1][1]=2;
 //   Rotation2f rotinv(rot1.inverse());
 //   cout << rotinv*rot1;
@@ -256,23 +303,20 @@ int main(void){
 
 
 
-  Rotation2f r_boh(0.5);
-  cout << r_boh << endl << r_boh*r_boh.inverse() << endl;
+//   Rotation2f r_boh(0.5);
+//   cout << r_boh << endl << r_boh*r_boh.inverse() << endl;
 
 
-  cout << "*************************" <<endl;
-  Vec2f v_mult;
-  v_mult.values[0]=20;
-  v_mult.values[1]=5;
+//   cout << "*************************" <<endl;
+//   Vec2f v_mult;
+//   v_mult.values[0]=20;
+//   v_mult.values[1]=5;
 
-  cout << v_mult;
+//   cout << v_mult;
   
-  v_mult = r_boh*v_mult;
-  cout << v_mult;
+//   v_mult = r_boh*v_mult;
+//   cout << v_mult;
 
-  cout << r_boh.inverse()*v_mult;
+//   cout << r_boh.inverse()*v_mult;
   
-
-
-
 }
